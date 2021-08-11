@@ -1,0 +1,388 @@
+body {
+
+    margin-left: 55px;
+    margin-right: 55px;
+    background-color: rgb(212, 211, 211)
+}
+
+header {
+    background-color: white;
+}
+
+.menu ul {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+ul li {
+    list-style:none;
+    font-size: 18px;
+}
+
+nav {
+    padding-bottom: 5px;
+}
+
+#productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    margin: 20px;
+}
+
+#form {
+
+    text-align: center;
+}
+
+#saludo {
+
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: crimson;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.imagen1 {
+
+    background-image: url("../img/3\ copia.jpg") ;
+    background-position:center;
+    background-attachment:inherit;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.imagen2 {
+
+    background-image: url("../img/4\ copia.jpg") ;
+    background-position:center;
+    background-attachment:inherit;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.imagen3 {
+
+    background-image: url("../img/9\ copia.jpg") ;
+    background-position:center;
+    background-attachment:inherit;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.boton__carrito {
+
+    align-items: center;
+    text-align: center;
+   
+    border-radius: 10px;
+    border: solid;
+    border: 1px;
+    font-size: 20px;
+    font-weight: 40px;
+    background-color: greenyellow;
+    opacity: 70%;
+    margin:0px;
+    padding:1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+.producto-detalles {
+    display: flex;
+}
+
+.boton__carrito:hover {
+
+    background-color: blueviolet;
+    color:white;
+}
+
+.precio {
+
+    font-size: 30px;
+    color:red;
+}
+
+.descripcionProducto {
+
+    margin-top: 120px;
+}
+
+h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
+
+.producto-imagen {
+
+    height: 200px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.producto-titulo {
+    text-align: center;
+    margin: 2px;
+}
+
+.precio {
+    text-align: left;
+    margin-top: 0px;
+    margin:0px;
+    padding: 0px;
+    margin-left:40px;
+}
+
+.contenedor-carrito {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+#productos {
+
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+#producto-cards {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.carrito-titulo {
+
+    text-align: center;
+    color:black;
+    font-size: 30px;
+  
+}
+
+.item {
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .item-image {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+  .item-details > .item-price {
+    margin: 0;
+  }
+  
+  /* ? SHOPPING CART */
+  .shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+
+  .shoppingCartItem {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
+  }
+
+  .shopping-cart-total {
+      margin-left: 25px;
+  }
+
+  .comprarButton {
+
+    margin-right: 25px;
+  }
+.mostrarDescripcion {
+
+    color:white;
+    background-color: black;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    
+}
+
+.text-center {
+
+    margin-top: 100px;
+    
+}
+.descripcion {
+
+    text-align: left;
+    width: 220px;
+    margin-left: 75px;
+ 
+}
+
+.shopping-cart {
+
+    margin-top: 400px;
+}
+
+.imagenFlecha {
+
+    text-align: center ;
+    margin-left: 40px;
+    
+}
+
+.clickAqui {
+
+    text-align: center  ;
+}
+
+.titulo {
+
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.alert {
+
+    background-color:  blueviolet;
+    color:white;
+}
+.shopping-cart{
+
+    margin-top:300px;
+}
+
+.shoppingCartItemPrice {
+
+    margin-left:30px;
+}
+
+.shoppingCartItemQuantity {
+
+    margin-left: 55px;
+}
+
+.shoppingCartItem {
+
+    margin-left: 50px;
+}
+
+.row {
+
+    margin-left:52px;
+}
+
+.shopping-cart-header {
+    margin-left:10px
+}
+
+.comprarButton {
+
+    margin-right: 70px;
+}
+
+.modal-body {
+
+    background-color: blueviolet;
+    color: white;
+}
+
+.modal-header {
+
+    background-color: rgb(212, 211, 211);
+}
+
+.btn-secondary {
+
+    background-color: greenyellow;
+    color: black;
+}
+
+.shoppingCartTotal {
+
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.total-precio {
+
+    font-size: 30px;
+}
